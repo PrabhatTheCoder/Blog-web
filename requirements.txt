@@ -38,7 +38,7 @@ django-treebeard==4.7.1
 djangorestframework==3.13.1
 dnspython==2.1.0
 draftjs-exporter==2.1.7
-duplicity==0.8.21
+# duplicity==0.8.21
 et-xmlfile==1.1.0
 exceptiongroup==1.2.0
 executing==2.0.1
