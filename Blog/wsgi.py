@@ -8,7 +8,8 @@ https://docs.djangoproject.com/en/3.2/howto/deployment/wsgi/
 """
 
 import os
-from whitenoise.django import DjangoWhiteNoise
+# from whitenoise.django import DjangoWhiteNoise
+from whitenoise.base import WhiteNoise
 from django.core.wsgi import get_wsgi_application
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Blog.settings')
