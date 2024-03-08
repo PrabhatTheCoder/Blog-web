@@ -140,7 +140,7 @@ STATICFILES_DIR = {
 MEDIA_ROOT = os.path.join(BASE_DIR , 'public/media')
 MEDIA_URL = '/media/'
 
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'.
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 # STORAGES = {
 #     # ...
 #     "staticfiles": {
